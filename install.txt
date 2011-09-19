@@ -1,0 +1,40 @@
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Panter :: Maven Kickstart
+[INFO]    task-segment: [install]
+[INFO] ------------------------------------------------------------------------
+[INFO] [resources:resources {execution: default-resources}]
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] [compiler:compile {execution: default-compile}]
+[INFO] Nothing to compile - all classes are up to date
+[INFO] [resources:testResources {execution: default-testResources}]
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] [compiler:testCompile {execution: default-testCompile}]
+[INFO] Nothing to compile - all classes are up to date
+[INFO] [surefire:test {execution: default-test}]
+[INFO] Surefire report directory: /home/administrator/Repositories/ch.panter.projectzero/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running ch.panter.junit.gettingstarted.Junit4Test
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.042 sec
+Running ch.panter.jmock.gettingstarted.PublisherTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.057 sec
+
+Results :
+
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 1
+
+[INFO] [jar:jar {execution: default-jar}]
+[INFO] [install:install {execution: default-install}]
+[INFO] Installing /home/administrator/Repositories/ch.panter.projectzero/target/projectzero-1.0.0.jar to /home/administrator/.m2/repository/ch/panter/projectzero/1.0.0/projectzero-1.0.0.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESSFUL
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2 seconds
+[INFO] Finished at: Mon Sep 19 21:38:30 CEST 2011
+[INFO] Final Memory: 10M/25M
+[INFO] ------------------------------------------------------------------------
